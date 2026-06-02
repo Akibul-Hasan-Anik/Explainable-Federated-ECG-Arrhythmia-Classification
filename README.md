@@ -25,10 +25,10 @@ The frontend is developed using React and Vite. It provides a simple user interf
 The model predicts the following ECG heartbeat classes:
 
 * Normal Beat — `N`
-* Left Bundle Branch Block Beat — `LBBB / L`
-* Right Bundle Branch Block Beat — `RBBB / R`
-* Atrial Premature Beat — `APB / A`
-* Ventricular Premature Beat — `VPB / V`
+* Left Bundle Branch Block Beat — `L`
+* Right Bundle Branch Block Beat — `R`
+* Atrial Premature Beat — `A`
+* Ventricular Premature Beat — `V`
 
 ## Technologies Used
 
@@ -52,8 +52,6 @@ The deployed model file is:
 ```text id="1k7yaz"
 fedavg_model.h5
 ```
-
-The model takes a 1D ECG signal as input and predicts one of the arrhythmia classes. 
 
 ## Explainable AI
 
