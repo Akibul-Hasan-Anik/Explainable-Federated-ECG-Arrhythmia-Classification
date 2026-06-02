@@ -20,6 +20,10 @@ The frontend is developed using React and Vite. It provides a simple user interf
 * Important ECG region highlighting
 * Real-time Prediction & Visualization
 
+## Dataset
+
+MIT-BIH Arrhythmia Database (PhysioNet)
+
 ## Arrhythmia Classes
 
 The model predicts the following ECG heartbeat classes:
@@ -59,10 +63,6 @@ The explanation methods include:
 
 * Saliency Map
 * Integrated Gradients
-
-## Dataset
-
-MIT-BIH Arrhythmia Database (PhysioNet)
 
 ## Project Structure
 
